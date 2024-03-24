@@ -592,6 +592,10 @@ body {
   margin-bottom: 8px;
 }
 
+.feedback-form-wrapper-textarea {
+  margin-bottom: 16px;
+}
+
 .feedback-form-label {
   display: block;
   font-size: 12px;
