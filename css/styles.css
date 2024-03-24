@@ -506,7 +506,7 @@ body {
 
 /* ====== Backdrop styles ====== */
 .backdrop {
-  pointer-events: auto;
+  pointer-events: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -522,7 +522,7 @@ body {
 .backdrop.is-open {
   opacity: 1;
   visibility: visible;
-  pointer-events: none;
+  pointer-events: auto;
 
 
 }
@@ -589,7 +589,7 @@ body {
 }
 
 .feedback-form-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .feedback-form-label {
@@ -639,7 +639,7 @@ body {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: (46, 47, 66, 0.4);
+  color: rgba(46, 47, 66, 0.4);
   width: 100%;
   height: 120px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -688,7 +688,7 @@ body {
 
 .feedback-form-privacy-checkbox:checked+.feedback-form-checkbox-label .feedback-form-own-checkbox {
   background-color: #404bbf;
-  border-color: none;
+  border: none;
   fill: #f4f4fd;
 
 }
